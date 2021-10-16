@@ -4,8 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.oziris78</groupId>
   <artifactId>telek-fx</artifactId>
-  <version>0.0.7</version>
+  <version>0.0.7b</version>
   <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-base</artifactId>
@@ -15,12 +21,6 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-graphics</artifactId>
-      <version>17</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-controls</artifactId>
       <version>17</version>
       <scope>compile</scope>
     </dependency>
@@ -100,7 +100,7 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx</artifactId>
-      <version>14</version>
+      <version>17</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
