@@ -1,13 +1,13 @@
 package com.telek.telekfx;
 
-import javafx.geometry.*;
-import javafx.scene.*;
-import javafx.scene.image.*;
+
+import javafx.geometry.Insets;
+import javafx.scene.Node;
+import javafx.scene.image.Image;
 import javafx.scene.layout.*;
 import javafx.scene.media.MediaPlayer;
-import javafx.scene.paint.*;
+import javafx.scene.paint.ImagePattern;
 import javafx.util.Duration;
-
 
 public final class TelekFX {
 
