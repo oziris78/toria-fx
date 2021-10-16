@@ -1,4 +1,6 @@
 
+
+
 plugins {
     id "java-library"
     id "maven"
@@ -6,20 +8,20 @@ plugins {
 }
 
 group 'com.github.oziris78'
-version '0.0.6'
+version '0.0.7'
 
 def projectName = 'telek-fx'
+def javaFXVersion = '17'
 
 
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
+
 javafx {
     version = "17"
     modules = [ 'javafx.controls' , 'javafx.fxml', 'javafx.media', 'javafx.web', 'javafx.swing' ]
 }
-
-
 
 jar {
     archiveBaseName.set(projectName)
@@ -61,6 +63,22 @@ repositories {
 
 dependencies {
 
+    implementation 'org.openjfx:javafx:14'
+
+    compile 'org.openjfx:javafx-base:' + javaFXVersion
+    compile 'org.openjfx:javafx-graphics:' + javaFXVersion
+    compile 'org.openjfx:javafx-controls:' + javaFXVersion
+    compile 'org.openjfx:javafx-fxml:' + javaFXVersion
+    compile 'org.openjfx:javafx-swing:' + javaFXVersion
+    compile 'org.openjfx:javafx-media:' + javaFXVersion
+    compile 'org.openjfx:javafx-web:' + javaFXVersion
 
 }
+
+
+
+
+
+
+
 
