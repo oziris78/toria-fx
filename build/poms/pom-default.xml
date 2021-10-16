@@ -4,8 +4,50 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.oziris78</groupId>
   <artifactId>telek-fx</artifactId>
-  <version>0.0.9</version>
+  <version>0.0.10</version>
   <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-base</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-graphics</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-swing</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-media</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-web</artifactId>
+      <version>17</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
@@ -58,48 +100,6 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx</artifactId>
-      <version>17</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-controls</artifactId>
-      <version>17</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-base</artifactId>
-      <version>17</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-graphics</artifactId>
-      <version>17</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-fxml</artifactId>
-      <version>17</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-swing</artifactId>
-      <version>17</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-media</artifactId>
-      <version>17</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-web</artifactId>
       <version>17</version>
       <scope>runtime</scope>
     </dependency>
