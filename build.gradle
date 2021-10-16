@@ -1,12 +1,12 @@
 
 plugins {
     id "java-library"
-    id "maven-publish"
+    id "maven"
     id 'org.openjfx.javafxplugin' version '0.0.9'
 }
 
 group 'com.github.oziris78'
-version '0.0.1'
+version '0.0.2'
 
 def projectName = 'telek-fx'
 
