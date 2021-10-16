@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'com.github.oziris78'
-version 'abc'
+version 'abcd'
 
 def projectName = 'telek-fx'
 def javaFXVersion = '15'
@@ -16,7 +16,7 @@ sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
 javafx {
-    version = "17"
+    version = javaFXVersion
     modules = [ 'javafx.controls' , 'javafx.fxml', 'javafx.media', 'javafx.web', 'javafx.swing' ]
 }
 
@@ -62,15 +62,15 @@ repositories {
 
 dependencies {
 
-    implementation 'org.openjfx:javafx:' + javaFXVersion
-
-    compile group: 'org.openjfx', name: 'javafx-controls', version:javaFXVersion
-    compile group: 'org.openjfx', name: 'javafx-base', version: javaFXVersion
-    compile group: 'org.openjfx', name: 'javafx-graphics', version:javaFXVersion
-    compile group: 'org.openjfx', name: 'javafx-fxml', version:javaFXVersion
-    compile group: 'org.openjfx', name: 'javafx-swing', version:javaFXVersion
-    compile group: 'org.openjfx', name: 'javafx-media', version:javaFXVersion
-    compile group: 'org.openjfx', name: 'javafx-web', version:javaFXVersion
+//    implementation 'org.openjfx:javafx:' + javaFXVersion
+//
+//    compile group: 'org.openjfx', name: 'javafx-controls', version:javaFXVersion
+//    compile group: 'org.openjfx', name: 'javafx-base', version: javaFXVersion
+//    compile group: 'org.openjfx', name: 'javafx-graphics', version:javaFXVersion
+//    compile group: 'org.openjfx', name: 'javafx-fxml', version:javaFXVersion
+//    compile group: 'org.openjfx', name: 'javafx-swing', version:javaFXVersion
+//    compile group: 'org.openjfx', name: 'javafx-media', version:javaFXVersion
+//    compile group: 'org.openjfx', name: 'javafx-web', version:javaFXVersion
 
 }
 
