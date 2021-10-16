@@ -1,5 +1,2 @@
 jdk:
   - openjdk11
-install:
-  - chmod 755 gradlew
-  - ./gradlew clean publishToMavenLocal -x signMavenPublication
