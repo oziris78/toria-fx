@@ -65,13 +65,13 @@ dependencies {
 
     implementation 'org.openjfx:javafx:' + javaFXVersion
 
-    compile 'org.openjfx:javafx-controls:' + javaFXVersion
-    compile 'org.openjfx:javafx-base:' + javaFXVersion
-    compile 'org.openjfx:javafx-graphics:' + javaFXVersion
-    compile 'org.openjfx:javafx-fxml:' + javaFXVersion
-    compile 'org.openjfx:javafx-swing:' + javaFXVersion
-    compile 'org.openjfx:javafx-media:' + javaFXVersion
-    compile 'org.openjfx:javafx-web:' + javaFXVersion
+    implementation 'org.openjfx:javafx-controls:' + javaFXVersion
+    implementation 'org.openjfx:javafx-base:' + javaFXVersion
+    implementation 'org.openjfx:javafx-graphics:' + javaFXVersion
+    implementation 'org.openjfx:javafx-fxml:' + javaFXVersion
+    implementation 'org.openjfx:javafx-swing:' + javaFXVersion
+    implementation 'org.openjfx:javafx-media:' + javaFXVersion
+    implementation 'org.openjfx:javafx-web:' + javaFXVersion
 
 }
 
