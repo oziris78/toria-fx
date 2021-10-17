@@ -6,7 +6,7 @@ plugins {
 }
 
 group 'com.github.oziris78'
-version '0.0.17'
+version '0.0.18'
 
 def projectName = 'telekfx'
 def javaFXVersion = '15'
@@ -25,7 +25,6 @@ javafx {
 
 jar {
     archiveBaseName.set(projectName)
-    exclude('org.openjfx')
     manifest {
         attributes 'Implementation-Title': projectName, 'Implementation-Version': archiveVersion
     }
