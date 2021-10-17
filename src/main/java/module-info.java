@@ -1,7 +1,7 @@
-module telekfx.main {
+module telekfx {
 
-    requires transitive javafx.graphics;
-    requires transitive javafx.media;
+    requires javafx.graphics;
+    requires javafx.media;
 
     exports com.telek.telekfx;
 
