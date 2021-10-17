@@ -3,33 +3,12 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.oziris78</groupId>
-  <artifactId>telek-fx</artifactId>
-  <version>abcd</version>
+  <artifactId>telekfx</artifactId>
+  <version>0.0.12</version>
   <dependencies>
     <dependency>
       <groupId>org.openjfx</groupId>
-      <artifactId>javafx-graphics</artifactId>
-      <version>15</version>
-      <classifier>win</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-media</artifactId>
-      <version>15</version>
-      <classifier>win</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-base</artifactId>
-      <version>15</version>
-      <classifier>win</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-fxml</artifactId>
+      <artifactId>javafx-web</artifactId>
       <version>15</version>
       <classifier>win</classifier>
       <scope>runtime</scope>
@@ -43,7 +22,14 @@
     </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
-      <artifactId>javafx-web</artifactId>
+      <artifactId>javafx-graphics</artifactId>
+      <version>15</version>
+      <classifier>win</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
       <version>15</version>
       <classifier>win</classifier>
       <scope>runtime</scope>
@@ -51,6 +37,20 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-swing</artifactId>
+      <version>15</version>
+      <classifier>win</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-base</artifactId>
+      <version>15</version>
+      <classifier>win</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-media</artifactId>
       <version>15</version>
       <classifier>win</classifier>
       <scope>runtime</scope>

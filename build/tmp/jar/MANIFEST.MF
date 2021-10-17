@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
-Implementation-Title: telek-fx
-Implementation-Version: abcd
+Implementation-Title: telekfx
+Implementation-Version: 0.0.12
 
