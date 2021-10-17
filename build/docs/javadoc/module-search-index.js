@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"telekfx.main"}]
+moduleSearchIndex = [{"l":"telekfx"}]
