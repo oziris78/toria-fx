@@ -25,6 +25,7 @@ javafx {
 
 jar {
     archiveBaseName.set(projectName)
+    exclude('org.openjfx/**')
     manifest {
         attributes 'Implementation-Title': projectName, 'Implementation-Version': archiveVersion
     }
