@@ -1,26 +1,28 @@
 package com.telek.telekfx;
 
 
-import javafx.geometry.Insets;
-import javafx.scene.Node;
-import javafx.scene.image.Image;
+import javafx.geometry.*;
+import javafx.scene.*;
+import javafx.scene.image.*;
 import javafx.scene.layout.*;
-import javafx.scene.media.MediaPlayer;
-import javafx.scene.paint.ImagePattern;
-import javafx.util.Duration;
+import javafx.scene.media.*;
+import javafx.scene.paint.*;
+import javafx.util.*;
+
 
 public final class TelekFX {
+
 
     public static void setResizableBackgroundImage(Region region, Image image){
         region.setBackground(new Background(new BackgroundFill(new ImagePattern(image), CornerRadii.EMPTY, Insets.EMPTY)));
     }
 
 
-    public static void setAnchorPaneConstraints(Node node, double top, double left, double bottom, double right) {
-        if(top > 0) AnchorPane.setTopAnchor(node, top);
-        if(left > 0) AnchorPane.setLeftAnchor(node, left);
-        if(bottom > 0) AnchorPane.setBottomAnchor(node, bottom);
-        if(right > 0) AnchorPane.setRightAnchor(node, right);
+    public static void setAnchorPaneConstraints(Node node, Double top, Double left, Double bottom, Double right) {
+        AnchorPane.setTopAnchor(node, top);
+        AnchorPane.setLeftAnchor(node, left);
+        AnchorPane.setBottomAnchor(node, bottom);
+        AnchorPane.setRightAnchor(node, right);
     }
 
 

@@ -6,9 +6,9 @@ plugins {
 }
 
 group 'com.github.oziris78'
-version 'abcd'
+version '0.0.11'
 
-def projectName = 'telek-fx'
+def projectName = 'telekfx'
 def javaFXVersion = '15'
 
 
