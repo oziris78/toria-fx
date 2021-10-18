@@ -27,7 +27,6 @@ public final class ResourceLoader {
         String resID = resName + size;
         if( !this.fonts.containsKey(resID) ){
             Font font = Font.loadFont(mainClass.getResourceAsStream(resName), size);
-            if(font == null) System.out.println(resID);
             this.fonts.put(resID, font);
             return font;
         }
