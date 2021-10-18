@@ -4,18 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.oziris78</groupId>
   <artifactId>telekfx</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <dependencies>
     <dependency>
       <groupId>org.openjfx</groupId>
-      <artifactId>javafx-web</artifactId>
-      <version>15</version>
-      <classifier>win</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx-controls</artifactId>
+      <artifactId>javafx-swing</artifactId>
       <version>15</version>
       <classifier>win</classifier>
       <scope>runtime</scope>
@@ -36,7 +29,7 @@
     </dependency>
     <dependency>
       <groupId>org.openjfx</groupId>
-      <artifactId>javafx-swing</artifactId>
+      <artifactId>javafx-web</artifactId>
       <version>15</version>
       <classifier>win</classifier>
       <scope>runtime</scope>
@@ -51,6 +44,13 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-media</artifactId>
+      <version>15</version>
+      <classifier>win</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
       <version>15</version>
       <classifier>win</classifier>
       <scope>runtime</scope>
