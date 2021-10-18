@@ -9,15 +9,13 @@ import java.util.HashMap;
 
 public final class ResourceLoader {
 
-    private final Class<?> mainClass;
 
     private HashMap<String, Image> images;
     private HashMap<String, Media> medias;
     private HashMap<String, Font> fonts;
 
 
-    public ResourceLoader(Class<?> mainClass){
-        this.mainClass = mainClass;
+    public ResourceLoader(){
         this.images = new HashMap<>();
         this.medias = new HashMap<>();
         this.fonts = new HashMap<>();
@@ -25,7 +23,7 @@ public final class ResourceLoader {
 
 
 
-    public Font getFont(String resName, double size) {
+    public Font getFont(Class<?> mainClass, String resName, double size) {
         String resID = resName + size;
         if( !this.fonts.containsKey(resID) ){
             Font font = Font.loadFont(mainClass.getResourceAsStream(resName), size);
@@ -40,7 +38,7 @@ public final class ResourceLoader {
 
 
 
-    public Image getImage(String resName){
+    public Image getImage(Class<?> mainClass, String resName){
         if( !this.images.containsKey(resName) ){
             Image image = new Image(mainClass.getResource(resName).toExternalForm());
             this.images.put(resName, image);
@@ -52,7 +50,7 @@ public final class ResourceLoader {
     }
 
 
-    public Media getMedia(String resName){
+    public Media getMedia(Class<?> mainClass, String resName){
         if( !this.medias.containsKey(resName) ){
             Media media = new Media(mainClass.getResource(resName).toString());
             this.medias.put(resName, media);
