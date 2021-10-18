@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"telekfx","l":"com.telek.telekfx"},{"m":"telekfx","l":"com.telek.utils"}]
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"m":"telekfx","l":"com.telek.telekfx"}]

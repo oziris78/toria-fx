@@ -1,4 +1,4 @@
-package com.telek.utils;
+package com.telek.telekfx;
 
 
 import javafx.scene.image.Image;
