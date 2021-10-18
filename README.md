@@ -14,7 +14,7 @@ repositories {
 }
 
 dependencies {
-    implementation ('com.github.oziris78:telek-fx:v0.1.2'){
+    implementation ('com.github.oziris78:telek-fx:v0.1.3'){
         exclude group: 'org.openjfx'
     }
 }
