@@ -14,36 +14,9 @@ repositories {
 }
 
 dependencies {
-    implementation ('com.github.oziris78:telek-fx:v0.1.3'){
+    implementation ('com.github.oziris78:telek-fx:v0.2'){
         exclude group: 'org.openjfx'
     }
 }
-```
-
-<br>
-If you use modules you will also need to add this line:
-
-```
-requires telekfx;
-```
-<br>
-A module-info.java example:
-
-```
-
-module myproject.main {
-
-    requires javafx.graphics;
-    // other javafx stuff here
-    // other library stuff here
-    // ...
-    
-    requires telekfx;
-    
-    opens com.example.main;
-    exports com.example;
-
-}
-
 ```
 
