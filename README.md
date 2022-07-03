@@ -1,4 +1,4 @@
-# toria-fx
+# Toria FX
 
 <p> <!-- BADGES -->
 <!-- badge 1 -->
