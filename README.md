@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-    implementation ('com.github.oziris78:toria-fx:v0.2'){
+    implementation ('com.github.oziris78:toria-fx:v0.3'){
         exclude group: 'org.openjfx'
     }
 }
