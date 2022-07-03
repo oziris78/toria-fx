@@ -1,4 +1,4 @@
-package com.telek.telekfx;
+package com.twistral.toriafx;
 
 import javafx.application.Application;
 import javafx.scene.*;

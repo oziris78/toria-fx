@@ -1,7 +1,6 @@
-package com.telek.telekfx;
+package com.twistral.toriafx;
 
 import javafx.event.EventHandler;
-import javafx.scene.Group;
 import javafx.scene.Node;
 import javafx.scene.input.MouseEvent;
 

@@ -1,4 +1,4 @@
-package com.telek.telekfx;
+package com.twistral.toriafx;
 
 
 import javafx.geometry.*;
@@ -10,7 +10,7 @@ import javafx.scene.paint.*;
 import javafx.util.*;
 
 
-public final class TelekFX {
+public final class ToriaFX {
 
 
     public static void setResizableBackgroundImage(Region region, Image image){

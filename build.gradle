@@ -7,9 +7,9 @@ plugins {
 }
 
 group 'com.github.oziris78'
-version '0.2'
+version '0.3'
 
-def projectName = 'telekfx'
+def projectName = 'toria-fx'
 def javaFXVersion = '15'
 
 
