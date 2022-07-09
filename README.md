@@ -41,4 +41,5 @@ dependencies {
 
 
 ## Projects That Use Toria FX
-    - <a href="https://github.com/oziris78/javafx-playground"> JavaFX Playground </a>
+
+<a href="https://github.com/oziris78/javafx-playground"> JavaFX Playground </a>
